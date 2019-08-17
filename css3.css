@@ -1,0 +1,188 @@
+<html>
+<head>
+<style>
+.nav{
+background-color:yellow;
+list-style-type:none;
+text-align:center;
+margin:0;
+padding:0;
+}
+.nav li{
+display:inline-block;
+font-size:20px;
+padding:20px;
+}
+*{
+box-sizing:border-box;
+}
+.header, .footer{
+background-color:grey;
+color:white;
+padding:15px;
+}
+.clumn{
+float:left;
+padding:15px;
+}
+.clearfix::after{
+content:"";
+clear:both;
+display:table;
+}
+.menu{
+width:25%;
+}
+.content{
+width:75%;
+}
+.menu ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.menu li{
+padding:8px;
+margin-bottom:8px;
+background-color:#33b5e5;
+color:#ffffff;
+}
+.menu li:hover{
+background-color:#0099cc;
+}
+img{
+float:right;
+}
+div.relative{
+position:relative;
+left:30px;
+border:3px solid #73AD21;
+}
+div.absolute{
+position:absolute;
+top:80px;
+right:0;
+width:200px;
+height:100px;
+border:3px solid #73AD21;
+}
+h1.hidden{
+visibility:hidden;
+}
+td,th{
+text-align:left;
+padding:8px;
+border-bottom:1px solid #ddd;
+}
+table{
+border-collapse:collapse;
+width:100%;
+}
+tr:nth-child(even){background-color:#f2f2f2;}
+ul{
+background:#ff9999;
+padding:20px;
+}
+ul li{
+background:#cce5ff;
+margin:5px;
+}
+ul.a{
+list-style-position:outside;
+}
+a:link{
+text-decoration:none;
+background-color:yellow;
+}
+a:visited{
+text-decoration:none;
+background-color:cyan;
+}
+a:hover{
+text-decoration:underline;
+background-color:lightgreen;
+}
+a:active{
+text-decoration:underline;
+background-color:hotpink;
+}
+</style>
+</head>
+<body>
+<p><b><a href="defult.asp" target="_blank">open</a></b></p>
+<hr>
+<ul class="a">
+<li><b>CSS</b>- stands for Cascading Style Sheets and is a language used for describing the look and formatting of a document written in a markup language.</li><br>
+<li><b>html</b>-Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser</li><br>
+<li><b>www</b>-World Wide Web (WWW), byname the Web, the leading information retrieval service of the Internet (the worldwide computer network). The Web gives users access to a vast array of documents that are connected to each other by means of hypertext or hypermedia links—i.e., hyperlinks, electronic connections that link related pieces of information in order to allow a user easy access to them</li>
+</ul>
+<hr>
+<table>
+<tr>
+<th>firstname</th>
+<th>lastname</th>
+<th>age</th>
+</tr>
+<tr>
+<td>shukufe</td>
+<td>shafiee</td>
+<td>20</td>
+</tr>
+<tr>
+<td>milad</td>
+<td>shafiee</td>
+<td>29</td>
+</tr>
+<tr>
+<td>adrina</td>
+<td>shafiee</td>
+<td>2</td>
+</tr>
+<tr>
+<td>aghil</td>
+<td>shafiee</td>
+<td>53</td>
+</tr>
+<hr>
+<h1 class="hidden">shuku</h1>
+<hr>
+<div class="relative">HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser,
+ and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are found in the 1988 ISO technical report TR 9537 Techniques for using SGML, which in turn covers the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents.
+ However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; </div>
+<div class="absolute">HTML has been progressively moved in this direction with CSS</div>
+<hr>
+<p><img src="pineapple.jpg" alt="pineapple" style="width:170px;height:170px;margin-left:15px;">
+CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content. 
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4] 
+The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable. 
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5] 
+In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</p>
+<hr>
+<div class="header">
+<h1>shuku</h1>
+</div>
+<div class="clearfix">
+<div class="column menu">
+<ul>
+<li>css</li>
+<li>html</li>
+<li>www</li>
+</ul>
+</div>
+<div class="column content">
+<h1>css</h1>
+<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages</p>
+</div>
+</div>
+<div class="footer">
+<p>shafieei</p>
+<hr>
+<ul class="nav">
+<li><a href="#home">home</a></li>
+<li><a href="#about">about us</a></li>
+<li><a href="#clients">our clients</a></li>
+<li><a href="#contact">contact us</a></li>
+</ul>
+</div>
+</body>
+</html>
